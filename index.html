@@ -1,0 +1,563 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acampamento Meio-Sangue</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         TELA DE LOADING
+    ========================== -->
+
+    <div id="loading">
+
+        <div class="loading-conteudo">
+
+            <div class="simbolo-loading">⚡</div>
+
+            <h1>ACAMPAMENTO<br>MEIO-SANGUE</h1>
+
+            <p>Preparando sua chegada...</p>
+
+            <div class="barra">
+                <div class="progresso"></div>
+            </div>
+
+            <span id="porcentagem">0%</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         SITE
+    ========================== -->
+
+    <div id="site">
+
+        <!-- MENU -->
+
+        <header>
+
+            <div class="logo">
+                ⚡ Acampamento Meio-Sangue
+            </div>
+
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#chales">Chalés</a>
+                <a href="#mitologia">Mitologia</a>
+                <a href="#quiz">Quiz</a>
+            </nav>
+
+        </header>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-conteudo">
+
+                <p class="pequeno-titulo">
+                    BEM-VINDO AO
+                </p>
+
+                <h1>
+                    ACAMPAMENTO
+                    <span>MEIO-SANGUE</span>
+                </h1>
+
+                <p class="descricao">
+                    Entre no mundo dos semideuses e descubra os
+                    deuses, símbolos e histórias que inspiraram
+                    o universo de Percy Jackson.
+                </p>
+
+                <a href="#chales" class="botao">
+                    EXPLORAR OS CHALÉS
+                </a>
+
+            </div>
+
+            <div class="hero-simbolo">
+                ⚡
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CHALÉS
+        ========================== -->
+
+        <section id="chales" class="chales">
+
+            <div class="titulo">
+
+                <p>DESCUBRA SEU LUGAR</p>
+
+                <h2>Os Chalés</h2>
+
+                <span>
+                    Conheça alguns dos deuses presentes na mitologia
+                    grega e no universo de Percy Jackson.
+                </span>
+
+            </div>
+
+
+            <div class="cards">
+
+                <div class="card">
+                    <span>⚡</span>
+                    <h3>Zeus</h3>
+                    <p>Deus dos céus, raios e trovões.</p>
+                    <a href="#zeus">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🌊</span>
+                    <h3>Poseidon</h3>
+                    <p>Deus dos mares e das águas.</p>
+                    <a href="#poseidon">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🦉</span>
+                    <h3>Atena</h3>
+                    <p>Deusa da sabedoria e estratégia.</p>
+                    <a href="#atena">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>⚔️</span>
+                    <h3>Ares</h3>
+                    <p>Deus da guerra e da batalha.</p>
+                    <a href="#ares">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>💀</span>
+                    <h3>Hades</h3>
+                    <p>Deus do submundo e dos mortos.</p>
+                    <a href="#hades">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>☀️</span>
+                    <h3>Apolo</h3>
+                    <p>Deus associado ao Sol, música e artes.</p>
+                    <a href="#apollo">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🌙</span>
+                    <h3>Ártemis</h3>
+                    <p>Deusa da caça e da natureza.</p>
+                    <a href="#artemis">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>💕</span>
+                    <h3>Afrodite</h3>
+                    <p>Deusa do amor e da beleza.</p>
+                    <a href="#afrodite">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🔨</span>
+                    <h3>Hefesto</h3>
+                    <p>Deus do fogo e da forja.</p>
+                    <a href="#hefesto">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🍇</span>
+                    <h3>Dionísio</h3>
+                    <p>Deus associado ao vinho e às festas.</p>
+                    <a href="#dionisio">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🌾</span>
+                    <h3>Deméter</h3>
+                    <p>Deusa da agricultura e das colheitas.</p>
+                    <a href="#demeter">Conhecer</a>
+                </div>
+
+                <div class="card">
+                    <span>🪽</span>
+                    <h3>Hermes</h3>
+                    <p>Deus dos viajantes e mensageiros.</p>
+                    <a href="#hermes">Conhecer</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DEUSES
+        ========================== -->
+
+        <section class="deuses">
+
+            <div class="titulo">
+                <p>MITOLOGIA</p>
+                <h2>Conheça os Deuses</h2>
+            </div>
+
+
+            <div class="deus" id="zeus">
+
+                <div class="deus-simbolo">⚡</div>
+
+                <div>
+                    <h2>Zeus</h2>
+
+                    <p>
+                        Zeus é o deus dos céus, dos raios e dos trovões.
+                        É uma das principais divindades da mitologia grega.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Raio e águia.
+                        <br>
+                        <strong>Cores:</strong> Azul, branco e dourado.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus invertido" id="poseidon">
+
+                <div class="deus-simbolo">🌊</div>
+
+                <div>
+                    <h2>Poseidon</h2>
+
+                    <p>
+                        Poseidon é o deus dos mares, terremotos e cavalos.
+                        No universo de Percy Jackson, ele é o pai de Percy.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Tridente e cavalo.
+                        <br>
+                        <strong>Cores:</strong> Azul, verde e branco.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus" id="atena">
+
+                <div class="deus-simbolo">🦉</div>
+
+                <div>
+                    <h2>Atena</h2>
+
+                    <p>
+                        Atena é a deusa da sabedoria, da estratégia
+                        e do conhecimento.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Coruja e oliveira.
+                        <br>
+                        <strong>Cores:</strong> Cinza, azul e dourado.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus invertido" id="ares">
+
+                <div class="deus-simbolo">⚔️</div>
+
+                <div>
+                    <h2>Ares</h2>
+
+                    <p>
+                        Ares é o deus da guerra e representa o lado
+                        mais intenso dos conflitos.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Espada e escudo.
+                        <br>
+                        <strong>Cores:</strong> Vermelho, preto e bronze.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus" id="hades">
+
+                <div class="deus-simbolo">💀</div>
+
+                <div>
+                    <h2>Hades</h2>
+
+                    <p>
+                        Hades é o deus do submundo e dos mortos.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Elmo das Trevas e caveira.
+                        <br>
+                        <strong>Cores:</strong> Preto, roxo e cinza.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus invertido" id="apollo">
+
+                <div class="deus-simbolo">☀️</div>
+
+                <div>
+                    <h2>Apolo</h2>
+
+                    <p>
+                        Apolo está associado ao Sol, música, poesia,
+                        medicina e artes.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Sol, arco e lira.
+                        <br>
+                        <strong>Cores:</strong> Dourado e amarelo.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus" id="artemis">
+
+                <div class="deus-simbolo">🌙</div>
+
+                <div>
+                    <h2>Ártemis</h2>
+
+                    <p>
+                        Ártemis é a deusa da caça, da natureza
+                        e da vida selvagem.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Lua, arco e cervo.
+                        <br>
+                        <strong>Cores:</strong> Prata, azul e verde.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus invertido" id="afrodite">
+
+                <div class="deus-simbolo">💕</div>
+
+                <div>
+                    <h2>Afrodite</h2>
+
+                    <p>
+                        Afrodite é a deusa do amor, da beleza
+                        e do desejo.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Rosa, pomba e concha.
+                        <br>
+                        <strong>Cores:</strong> Rosa, branco e dourado.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus" id="hefesto">
+
+                <div class="deus-simbolo">🔨</div>
+
+                <div>
+                    <h2>Hefesto</h2>
+
+                    <p>
+                        Hefesto é o deus do fogo, da forja
+                        e dos artesãos.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Martelo, bigorna e fogo.
+                        <br>
+                        <strong>Cores:</strong> Laranja, vermelho e cinza.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus invertido" id="dionisio">
+
+                <div class="deus-simbolo">🍇</div>
+
+                <div>
+                    <h2>Dionísio</h2>
+
+                    <p>
+                        Dionísio é associado ao vinho, festas,
+                        teatro e celebrações.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Uvas e videiras.
+                        <br>
+                        <strong>Cores:</strong> Roxo, verde e vinho.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus" id="demeter">
+
+                <div class="deus-simbolo">🌾</div>
+
+                <div>
+                    <h2>Deméter</h2>
+
+                    <p>
+                        Deméter é a deusa da agricultura,
+                        das plantas e das colheitas.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Trigo e flores.
+                        <br>
+                        <strong>Cores:</strong> Verde, marrom e amarelo.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="deus invertido" id="hermes">
+
+                <div class="deus-simbolo">🪽</div>
+
+                <div>
+                    <h2>Hermes</h2>
+
+                    <p>
+                        Hermes é o deus dos viajantes, mensageiros,
+                        comércio e velocidade.
+                    </p>
+
+                    <div class="informacoes">
+                        <strong>Símbolos:</strong> Sandálias aladas e caduceu.
+                        <br>
+                        <strong>Cores:</strong> Verde, dourado e branco.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MITOLOGIA
+        ========================== -->
+
+        <section id="mitologia" class="mitologia">
+
+            <p>MITOLOGIA GREGA</p>
+
+            <h2>
+                Dos antigos mitos ao mundo de Percy Jackson
+            </h2>
+
+            <p>
+                O universo de Percy Jackson utiliza diversos elementos
+                da mitologia grega, trazendo deuses, heróis, monstros
+                e histórias antigas para um cenário moderno.
+            </p>
+
+            <p>
+                Explore as referências da cultura grega e descubra
+                como elas aparecem no universo dos semideuses.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             QUIZ
+        ========================== -->
+
+        <section id="quiz" class="quiz">
+
+            <p>DESCUBRA SEU CHALÉ</p>
+
+            <h2>Qual deus combina com você?</h2>
+
+            <p>
+                Responda algumas perguntas e descubra com qual
+                chalé suas características mais combinam.
+            </p>
+
+            <button onclick="iniciarQuiz()">
+                COMEÇAR QUIZ
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             RODAPÉ
+        ========================== -->
+
+        <footer>
+
+            <h2>⚡ Acampamento Meio-Sangue</h2>
+
+            <p>
+                Um projeto inspirado na mitologia grega
+                e no universo de Percy Jackson.
+            </p>
+
+            <span>© 2026 - Projeto escolar</span>
+
+        </footer>
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
+```
+
